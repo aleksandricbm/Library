@@ -1,2 +1,2 @@
 #!/bin/bash
-ruby ./library.rb
+ruby ./main.rb
