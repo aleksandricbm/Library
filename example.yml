@@ -1,0 +1,100 @@
+--- !ruby/object:Library
+authors:
+- &3 !ruby/object:Author
+  name: Cathy Jakubowski
+- !ruby/object:Author
+  name: Mathew Marks
+- &1 !ruby/object:Author
+  name: Marcelina Gorczany
+- &2 !ruby/object:Author
+  name: Everett Kohler
+- !ruby/object:Author
+  name: Brain McDermott
+books:
+- &6 !ruby/object:Book
+  title: *1
+  book: Pale Kings and Princes
+- &8 !ruby/object:Book
+  title: *2
+  book: Fair Stood the Wind for France
+- &9 !ruby/object:Book
+  title: *3
+  book: Dulce et Decorum Est
+- &4 !ruby/object:Book
+  title: *2
+  book: Down to a Sunless Sea
+- !ruby/object:Book
+  title: *1
+  book: Far From the Madding Crowd
+readers:
+- !ruby/object:Reader
+  name: Rosanna
+  email: lawrence@carter.io
+  city: Loyceberg
+  street: Bayer Stravenue
+  house: '9601'
+- &10 !ruby/object:Reader
+  name: Greta
+  email: bennie.stiedemann@walker.net
+  city: West Brandt
+  street: Scarlett Roads
+  house: '5959'
+- !ruby/object:Reader
+  name: Shany
+  email: franco@sporersatterfield.com
+  city: North Sheilaside
+  street: Linnea Junctions
+  house: '858'
+- &5 !ruby/object:Reader
+  name: Harmon
+  email: maryjane.jacobs@moriette.io
+  city: Arielstad
+  street: Kendall Junctions
+  house: '7387'
+- &7 !ruby/object:Reader
+  name: Joesph
+  email: lew.adams@keeblerreinger.com
+  city: North Graysonmouth
+  street: Hills Lodge
+  house: '580'
+orders:
+- !ruby/object:Order
+  books: *4
+  readers: *5
+  date: 2007-12-18 22:55:15.832549571 +02:00
+- !ruby/object:Order
+  books: *6
+  readers: *7
+  date: 1977-05-23 08:17:30.988143175 +03:00
+- !ruby/object:Order
+  books: *8
+  readers: *7
+  date: 1997-09-28 00:08:29.183233737 +03:00
+- !ruby/object:Order
+  books: *6
+  readers: *5
+  date: 2009-02-23 05:34:04.619998455 +02:00
+- !ruby/object:Order
+  books: *9
+  readers: *10
+  date: 2009-03-11 04:16:35.683879137 +02:00
+- !ruby/object:Order
+  books: *6
+  readers: *7
+  date: 2007-11-30 05:22:55.698452234 +02:00
+- !ruby/object:Order
+  books: *6
+  readers: *5
+  date: 1997-03-04 15:02:25.504628419 +02:00
+- !ruby/object:Order
+  books: *8
+  readers: *5
+  date: 2006-11-22 18:29:13.709943056 +02:00
+- !ruby/object:Order
+  books: *4
+  readers: *10
+  date: 1980-05-02 13:29:31.648780643 +03:00
+- !ruby/object:Order
+  books: *4
+  readers: *5
+  date: 1975-09-20 00:30:56.296590894 +03:00
